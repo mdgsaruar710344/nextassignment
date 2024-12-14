@@ -5,7 +5,7 @@ import React from 'react';
 
 function CustomLink({path,children}) {
   const pathname=usePathname();
-  console.log(pathname);
+  // console.log(pathname);
   let isActive=false;
   if(path==pathname){
     isActive=true;

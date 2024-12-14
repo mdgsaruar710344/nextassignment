@@ -12,7 +12,7 @@ const {id,title,thumbnail,category_id}=herorecipe;
 const categoryName= categories.find(category=>category.id==category_id);
 // console.log(categoryName);
 
-console.log(title);
+// console.log(title);
   return (
     <div className='border-red-600 border-2 mb-10'>
      

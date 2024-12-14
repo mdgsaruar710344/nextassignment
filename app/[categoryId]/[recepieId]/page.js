@@ -10,7 +10,7 @@ function SingleRecipie() {
   // console.log(params);
   const {recepieId, categoryId}=params;
   const singleRecipie= recipes.find(recipe=>recipe.id==recepieId);
-  console.log(singleRecipie);
+  // console.log(singleRecipie);
 
   return (
     <div>
