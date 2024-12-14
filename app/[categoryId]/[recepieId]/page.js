@@ -1,7 +1,8 @@
 "use client"
 import { useParams } from 'next/navigation';
 import React from 'react';
-import recipes from '@/dist/data/recipes'
+import recipes from '@/dist/data/recipes';
+
 import Image from 'next/image';
 
 function SingleRecipie() {
