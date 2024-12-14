@@ -14,7 +14,7 @@ const categoryName= categories.find(category=>category.id==category_id);
 
 console.log(title);
   return (
-    <div className='border-red-600 border-2'>
+    <div className='border-red-600 border-2 mb-10'>
      
         <h1 className="text-5xl font-bold justify-center"> Title: {title}</h1>
 

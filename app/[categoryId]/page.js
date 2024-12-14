@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Category(props) {
+function categoryDetailsPage(props) {
   return (
     <div>
-      
+      This is category details Page
     </div>
   );
 }
 
-export default Category;
+export default categoryDetailsPage;
